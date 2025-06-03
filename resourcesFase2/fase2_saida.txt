@@ -1,0 +1,12 @@
+ [Bia] existe!
+
+ [Alberto] NÃO existe!
+
+ [Lucas] conhece [Pedro]
+
+ [Fernando] NÃO conhece [Fabi]
+
+#Guiche1 [Ana] [Bia] [Pedro] [Manuel]
+#Guiche2 [Maria] [Olga] [Joao] [ALface]
+#Guiche1 [Pedro] [Bia] [Manuel]
+#Guiche2 [Maria] [Olga] [Joao] [ALface]

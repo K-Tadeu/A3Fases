@@ -1,0 +1,29 @@
+criaFila: Guiche1 Guiche2
+
+grupo: Lucas Fernando Bia Pedro Ana
+grupo: Maria Jonas Fabi
+grupo: Ivo Paulo Junior Ivone
+existe: Bia
+existe: Alberto
+conhece: Lucas Pedro
+conhece: Fernando Fabi
+
+chegou: Ana Bia Guga
+
+chegou: Maria Manuel
+
+desiste: Guga
+
+chegou: Pedro Olga
+
+chegou: Joao ALface
+
+imprime:
+
+desiste: Bia
+
+atendeFila: Guiche1
+
+chegou: Bia
+
+imprime:
