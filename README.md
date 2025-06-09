@@ -7,8 +7,8 @@
 -----------|-----------------
 | 822135849 | Danilo Tolini   |
 | 822145075 | Kleber Tadeu   |
-
-
+| 822159844 | Tadeo Caceres |
+| 822164517 | Luiz Lorentz |
 ## Descrição do Projeto
 
 Este projeto consiste em duas fases que simulam estruturas de dados para manipulação de grupos e filas:
