@@ -1,0 +1,3 @@
+ [Bia] existe!
+ [Ana] conhece [Pedro]
+ [Joao] conhece [Olga]

@@ -44,6 +44,9 @@ A inserção respeita a ordem e permite inserir uma pessoa atrás da última pes
 
 ## Exemplo de Entrada e Saída
 
+ALERTA: Altere o local dos arquivos de entrada e saída nas respectivas fases nos arquivos MainFase1 e MainFase2. 
+Os arquivos de entrada e saída estão localizados nas pastas resourcesFase1 e resourcesFase2. 
+
 ### Entrada Fase 1 (`fase1_entrada.txt`)
 
 grupo: Ana Bia Guga Pedro
@@ -63,13 +66,41 @@ conhece: Joao Olga
 ### Entrada Fase 2 (`fase2_entrada.txt`)
 
 criaFila: Guiche1 Guiche2
-chegou: Ana Maria Pedro
-desiste: Maria
-atendeFila: Guiche1
+
+grupo: Lucas Fernando Bia Pedro Ana
+grupo: Maria Jonas Fabi
+grupo: Ivo Paulo Junior Ivone
+
+existe: Bia
+existe: Alberto
+conhece: Lucas Pedro
+conhece: Fernando Fabi
+
+chegou: Ana Bia Guga
+chegou: Maria Manuel
+desiste: Guga
+chegou: Pedro Olga
+chegou: Joao ALface
+
 imprime:
+desiste: Bia
+atendeFila: Guiche1
+chegou: Bia
+imprime:
+
 
 
 ### Saída Fase 2 (`fase2_saida.txt`)
 
-#Guiche1 [Pedro]
-#Guiche2 []
+ [Bia] existe!
+
+ [Alberto] NÃO existe!
+
+ [Lucas] conhece [Pedro]
+
+ [Fernando] NÃO conhece [Fabi]
+
+#Guiche1 [Ana] [Bia] [Pedro] [Manuel]
+#Guiche2 [Maria] [Olga] [Joao] [ALface]
+#Guiche1 [Pedro] [Bia] [Manuel]
+#Guiche2 [Maria] [Olga] [Joao] [ALface]

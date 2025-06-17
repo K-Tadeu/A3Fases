@@ -6,8 +6,9 @@ public class MainFase2 {
     public static void main(String[] args) {
         try {
             // Entrada e saída
-            String caminhoEntrada = "C:\\Users\\822145075\\Documents\\Estrutura de Dados\\a3\\resourcesFase2\\fase2_entrada.txt";
-            String caminhoSaida = "C:\\Users\\822145075\\Documents\\Estrutura de Dados\\a3\\resourcesFase2\\fase2_saida.txt";
+            // Insira o local onde está localizado o arquivo aqui:
+            String caminhoEntrada = "C:\\Users\\822145075\\Documents\\edaa\\A3\\A3Fases\\resourcesFase2\\fase2_entrada.txt";
+            String caminhoSaida = "C:\\Users\\822145075\\Documents\\edaa\\A3\\A3Fases\\resourcesFase2\\fase2_saida.txt";
 
             // Grupos fictícios para testar
             PessoasConhecemPessoas estrutura = new PessoasConhecemPessoas();

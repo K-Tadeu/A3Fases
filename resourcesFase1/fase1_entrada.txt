@@ -1,0 +1,5 @@
+grupo: Ana Bia Guga Pedro
+grupo: Joao Olga
+existe: Bia
+conhece: Ana Pedro
+conhece: Joao Olga
